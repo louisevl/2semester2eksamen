@@ -1,0 +1,41 @@
+
+body{
+    font-family: Montserrat, Sans-Serif
+}
+
+h2 {
+    font-style: none !important;
+}
+
+ul{
+list-style-type: none;
+padding: 0;
+}
+ul li{
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+ul li label{
+    cursor: pointer;
+}
+button{
+    background-color: #9fb086;
+    color: #fcfbe5;
+    border: none;
+    display: block;
+    width: 50%;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-family: inherit;
+    padding: 1.3rem;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+button:hover{
+    background-color: #404a31;
+}
+button:focus{
+    outline: none;
+    background-color: #9fb086;
+}

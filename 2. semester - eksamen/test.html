@@ -1,0 +1,56 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="test.css">
+</head>
+
+<body>
+
+  <!-- Herfra har vi benyttet HTML til vores widget -->
+
+  <!-- Quiz container, hvori quizzen befinder sig-->
+  <div class="quiz-container" id="quiz">
+    <!-- Quiz overskrift-->
+    <div class="quiz-header">
+      <!-- Teksten til det givne spørgsmål-->
+      <h2 id="question">Question Text</h2>
+
+      <!-- Liste med svarmuligheder-->
+
+      <ul>
+        <li>
+          <input type="radio" name="answer" id="a" class="answer">
+          <label for="a" id="o_a">Answer</label>
+        </li>
+
+        <li>
+          <input type="radio" name="answer" id="b" class="answer">
+          <label for="b" id="o_b">Answer</label>
+        </li>
+
+        <li>
+          <input type="radio" name="answer" id="c" class="answer">
+          <label for="c" id="o_c">Answer</label>
+        </li>
+
+        <li>
+          <input type="radio" name="answer" id="d" class="answer">
+          <label for="d" id="o_d">Answer</label>
+        </li>
+
+      </ul>
+    </div>
+
+    <!-- Knap der får en til at gå videre i quizzen. Ændrer sig ved sidste spørgsmål, se JS-->
+    <button id="submit">Næste</button>
+
+  </div>
+
+</body>
+
+<script src="test.js"></script>
+
+</html>
